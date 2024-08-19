@@ -1,0 +1,45 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section h1 {
+  font-size: 1.2rem;
+}
+section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+section form .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+section form .user label {
+  padding-right: 10px;
+  margin: 5px;
+}
+section form .user input {
+  border: 1px solid rgba(65, 65, 65, 0.5);
+  border-radius: 4px;
+}
+section form .password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+section form .password label {
+  padding-right: 10px;
+  margin: 5px;
+}
+section form .password input {
+  border: 1px solid rgba(65, 65, 65, 0.5);
+  border-radius: 4px;
+}
+section form button {
+  margin-top: 10px;
+}/*# sourceMappingURL=styles.css.map */
